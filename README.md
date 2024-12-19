@@ -1,6 +1,6 @@
 # 本项目基于 https://github.com/leo038/hand_eye_calibrate.git 制作
 
-手眼标定的原理可参考：[机械臂手眼标定方法详解](https://blog.csdn.net/leo0308/article/details/141498200)
+手眼标定的原理可参考：[机械臂手眼标定方法详解](https://blog.csdn.net/leo0308/article/details/141498200)；
 
 需要先行安装Intel D435的驱动；
 
