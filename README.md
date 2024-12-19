@@ -1,3 +1,15 @@
+# 本项目基于 https://github.com/leo038/hand_eye_calibrate.git 制作
+
+# 适用于 Hnu 机器人学院灵巧操作实验室用于手眼标定的程序
+
+需要先行安装D435的驱动；
+
+"in"表示眼在手上，"out"表示眼在手外；
+
+data_collect_ur5能够自动连通210的ur5机械臂，并在拍照时自动获取机械臂的位姿；
+
+collect_data_in和collect_data_out都有示例图片，可以直接运行理解代码。
+
 # hand_eye_calibrate
 
 该项目可以进行机器人的手眼标定。 
@@ -14,4 +26,3 @@ hand_eye_calibrate.py 为计算程序， 可根据采集的数据， 计算得�
 
 collect_data目录为示例数据， 可直接运行计算程序理解代码逻辑。 
 
-# 适用于 Hnu 机器人学院灵巧操作实验室用于手眼标定的程序
