@@ -16,7 +16,7 @@ config = rs.config()
 config.enable_stream(rs.stream.color, 1280, 720, rs.format.bgr8, 30)
 pipeline.start(config)
 
-image_save_path = "./collect_data/"
+image_save_path = "./collect_data/" # 记得改
 
 
 def data_collect():

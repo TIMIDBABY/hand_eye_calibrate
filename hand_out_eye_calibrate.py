@@ -173,8 +173,8 @@ def hand_eye_calibrate(images_path, arm_pose_file):
     return R_cam2base, t_cam2base, camera_matrix, dist_coeffs
 
 if __name__ == "__main__":
-    images_path = "./collect_data"  
-    arm_pose_file = "./collect_data/poses.txt"  
+    images_path = "./collect_data"   #记得改
+    arm_pose_file = "./collect_data/poses.txt"   #记得改
 
     R, t, mtx, dist = hand_eye_calibrate(images_path, arm_pose_file)
     
